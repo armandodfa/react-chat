@@ -1,0 +1,15 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url(reset.css);
+@import url(fonts.css);
+@import url(inputStyle.css);
+@import url(./components/room.css);
+body{
+  background-image: linear-gradient(277deg, #84fab0 0%, #8fd3f4 100%);
+}
+.wrapper{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15%;
+}

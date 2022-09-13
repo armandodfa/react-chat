@@ -1,0 +1,23 @@
+.input-group{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.input{
+    border: none;
+}
+.input-label{
+    position: fixed;
+    transition: transform .25s;
+}
+.input:focus+.input-label,
+.input:valid+.input-label{
+    transform: translate(-35px, -28px) scale(.8);
+    padding-inline: 15px;
+    background-color:linear-gradient(277deg, #84fab0 0%, #8fd3f4 100%);
+}
+.input:is(:focus,:valid){
+    outline-color: #84fab0;
+}
